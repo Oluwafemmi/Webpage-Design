@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(112, 32, 32);
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.clock-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
